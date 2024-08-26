@@ -5,15 +5,11 @@ fun main() {
     val employeeSalary = 30000
     val internAmount = 30
     val internSalary = 20000
+    val employeeSalaryBudget = employeeAmount * employeeSalary
+    val overallSalaryBudget = employeeSalaryBudget + (internAmount * internSalary)
+    val mediumSalary = overallSalaryBudget / (employeeAmount + internAmount)
 
-    val employeeSalaryBudget = employeeAmount * employeeSalary  //Расходы на выплату зарплаты постоянных сотрудников
-
-    val overallSalaryBudget = employeeSalaryBudget + (internAmount * internSalary) //Общие расходы по ЗП после прихода стажеров
-
-    val mediumSalary = overallSalaryBudget / (employeeAmount + internAmount) //Средняя ЗП одного сотрудника после устройства стажеров
-
-    println(employeeSalaryBudget)
-    println(overallSalaryBudget)
-    println(mediumSalary)
-
+    println("$employeeSalaryBudget" +
+            "\n$overallSalaryBudget" +
+            "\n$mediumSalary")
 }
