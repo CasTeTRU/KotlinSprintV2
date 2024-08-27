@@ -6,7 +6,5 @@ fun main() {
     val reservedTablesTomorrow = 9
 
     println("[Доступность столиков на сегодня: ${reservedTablesToday < totalAmountOfTables}]" +
-    "\n[Доступность столиков на завтра: ${reservedTablesTomorrow < totalAmountOfTables}]")
-
+            "\n[Доступность столиков на завтра: ${reservedTablesTomorrow < totalAmountOfTables}]")
 }
-
