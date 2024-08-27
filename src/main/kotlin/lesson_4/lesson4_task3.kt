@@ -6,5 +6,5 @@ fun main() {
     val airHumidity:Int = 20
     val yearSeason:String = "зима"
     println("Благоприятные ли условия сейчас для роста бобовых?:" +
-            " ${isWeatherSunny && isTentOpen && airHumidity == 20 && yearSeason !== "зима"}")
+            "${isWeatherSunny && isTentOpen && airHumidity == 20 && yearSeason !== "зима"}")
 }
