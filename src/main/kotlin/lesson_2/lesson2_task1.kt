@@ -6,7 +6,9 @@ fun main() {
     val thirdPupilScore = 3.0
     val fourthPupilScore = 5.0
     val numberOfPupils = 4
+
     val averageScore: Double = (firstPupilScore + secondPupilScore
             + thirdPupilScore + fourthPupilScore) / numberOfPupils
+
     println(averageScore)
 }
